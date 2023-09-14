@@ -1,0 +1,29 @@
+
+// Reset Box Model and List Styles
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;  }
+  
+  // Remove Text Decoration
+  a {
+    text-decoration: none;
+  }
+  
+  // Reset Typography
+  body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  // Reset Form Elements
+  input, textarea, select, button {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
