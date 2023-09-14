@@ -19,6 +19,8 @@
             font-weight: bold;
             font-size: 1.2rem;;
             transition: all 0.3s;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 1rem;
             &:hover{
                 color: $secondary-color;
                 cursor: pointer;
@@ -28,5 +30,10 @@
 }
 .active{
     color: $secondary-color;
+    border-bottom: 3px solid red;
 
+}
+a{
+    text-decoration: none;
+    
 }
